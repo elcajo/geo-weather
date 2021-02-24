@@ -1,0 +1,66 @@
+@font-face{
+    font-family: Ubuntu-Regular;
+    src: url('../font/Ubuntu-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333333;
+    font-family: Ubuntu-Regular;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 0 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.dfooter{
+    border-top: 1px solid #a3a3a3;
+}
+
+.dfooter p{
+    text-align: center;
+    font-variant-ligatures: no-common-ligatures;
+}
+.message p{
+    color: red;
+    text-align: center;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+.cheader h1{
+    text-align: center;
+    font-variant-ligatures: no-common-ligatures;
+}
+.cheader a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+    font-variant-ligatures: no-common-ligatures;
+}
+.mheader h1{
+    text-align: center;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+input{
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888;
+    background: #888;
+    color: white;
+    padding: 8px;
+}
