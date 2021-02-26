@@ -1,5 +1,4 @@
 const express = require('express')
-const request = require('postman-request')
 const path = require('path')
 const hbs = require('hbs')
 

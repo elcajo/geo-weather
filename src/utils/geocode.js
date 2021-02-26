@@ -1,4 +1,3 @@
-const chalk = require('chalk')
 const request = require('postman-request')
 
 const geoCode = (address, callback) => {
