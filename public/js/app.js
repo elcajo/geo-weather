@@ -22,7 +22,7 @@ weatherForm.addEventListener('submit', (e)=>{
 
     mesgOne.textContent = 'Loading'
 
-    fetch(`http://localhost:3000/about?location=${location}`).then((response) => {
+    fetch(`/about?location=${location}`).then((response) => {
     response.json().then((data) => {
         if (data.error) {
             mesgOne.textContent = data.error
